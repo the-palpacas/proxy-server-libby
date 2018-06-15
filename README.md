@@ -1,13 +1,12 @@
-# Project Name
+# Petsy Proxy Server
 
-> Project description
+> A server that renders all three modules together on one server.
 
 ## Related Projects
 
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
+  - https://github.com/the-palpacas/buying-module-libby
+  - https://github.com/the-palpacas/customer-reviews-Jesse
+  - https://github.com/the-palpacas/Shop-products-Xue
 
 ## Table of Contents
 
@@ -17,7 +16,7 @@
 
 ## Usage
 
-> Some usage instructions
+> Before starting the server, clone the related projects into the same directory as the proxy server folder.
 
 ## Requirements
 
@@ -28,12 +27,12 @@ An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
 
 ## Development
 
-### Installing Dependencies
+### Installing Dependencies and Starting Server
 
 From within the root directory:
 
 ```sh
-npm install -g webpack
 npm install
+npm start
 ```
 
