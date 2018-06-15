@@ -1,0 +1,28 @@
+{
+  "name": "",
+  "version": "",
+  "description": "",
+  "author": "",
+  "license": "",
+  "engines": {
+    "node": ">=6.13.0"
+  },
+  "scripts": {
+    "start": "nodemon ./proxy/server.js"
+  },
+  "dependencies": {
+    "eslint": "^4.19.1",
+    "nodemon": "^1.17.5"
+  },
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.9.1",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0"
+  }
+}

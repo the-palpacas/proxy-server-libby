@@ -1,0 +1,24 @@
+.carousel {
+  max-width: 570px;
+  width: 100%;
+  height: auto;
+}
+
+#container {
+  display: flex;
+}
+
+.header {
+  max-width: 1366px;
+  width: 100%;
+}
+
+.leftcol {
+  margin-left: auto;
+  margin-right: 5px;
+}
+
+.rightcol {
+  margin-left: 5px;
+  margin-right: auto;
+}
