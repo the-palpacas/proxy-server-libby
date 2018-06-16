@@ -8,7 +8,8 @@
     "node": ">=6.13.0"
   },
   "scripts": {
-    "start": "nodemon ./proxy/server.js"
+    "server-dev": "nodemon ./proxy/server.js",
+    "start": "node ./proxy/server.js"
   },
   "dependencies": {
     "eslint": "^4.19.1",
@@ -16,7 +17,6 @@
   },
   "devDependencies": {
     "axios": "^0.18.0",
-    "body-parser": "^1.18.3",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor",
     "eslint-plugin-import": "^2.12.0",
