@@ -60,19 +60,19 @@ app.put('/:id/reviews', (req, res) => {
 });
 
 app.get('/:id/xueProducts', (req, res) => {
-  axios.get(`http://localhost:5000/${req.params.id}/dist/bundleShopProducts.js`)
+  axios.get(`http://petsy-shopproducts-env.mnfihr8sej.us-west-1.elasticbeanstalk.com/${req.params.id}/dist/bundleShopProducts.js`)
     .then(response => res.status(200).send(response.data))
     .catch(error => res.status(500).send(error));
 });
 
 app.get('/:id/shopcss', (req, res) => {
-  axios.get(`http://localhost:5000/${req.params.id}/style.css`)
+  axios.get(`http://petsy-shopproducts-env.mnfihr8sej.us-west-1.elasticbeanstalk.com/${req.params.id}/style.css`)
     .then(response => res.set('Content-Type', 'text/css').status(200).send(response.data))
     .catch(error => res.status(500).send(error));
 });
 
 app.get('/:id/shopproducts', (req, res) => {
-  axios.get(`http://localhost:5000/${req.params.id}/shopproducts`)
+  axios.get(`http://petsy-shopproducts-env.mnfihr8sej.us-west-1.elasticbeanstalk.com/${req.params.id}/shopproducts`)
     .then(response => res.set('Content-Type', 'text/css').status(200).send(response.data))
     .catch(error => res.status(500).send(error));
 });
